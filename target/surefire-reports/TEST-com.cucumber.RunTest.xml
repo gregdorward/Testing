@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="145" failures="0" name="com.cucumber.RunTest" time="1.861" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="user.country.format" value="GB"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/gregdorward/Automation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/gregdorward/Automation"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/t1/v5_pkq097wz_t8bx5bltg_6c0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.9/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/gregdorward/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.4"/>
+    <property name="user.home" value="/Users/gregdorward"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="gregdorward"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.3.9/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="/Users/gregdorward/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.9/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="| https://www-staging.red-badger.com |" name="Given I am measuring page performance on &quot;https://www-staging.red-badger.com&quot;" time="0.002"/>
+  <testcase classname="| https://www-staging.red-badger.com |" name="| https://www-staging.red-badger.com |" time="0.086"/>
+  <testcase classname="| https://www-staging.red-badger.com/what-we-do |" name="Given I am measuring page performance on &quot;https://www-staging.red-badger.com/what-we-do&quot;" time="0"/>
+  <testcase classname="| https://www-staging.red-badger.com/what-we-do |" name="| https://www-staging.red-badger.com/what-we-do |" time="0.075"/>
+  <testcase classname="| https://www-staging.red-badger.com/our-work |" name="Given I am measuring page performance on &quot;https://www-staging.red-badger.com/our-work&quot;" time="0"/>
+  <testcase classname="| https://www-staging.red-badger.com/our-work |" name="| https://www-staging.red-badger.com/our-work |" time="0.086"/>
+  <testcase classname="| https://www-staging.red-badger.com/about-us |" name="Given I am measuring page performance on &quot;https://www-staging.red-badger.com/about-us&quot;" time="0"/>
+  <testcase classname="| https://www-staging.red-badger.com/about-us |" name="| https://www-staging.red-badger.com/about-us |" time="0.079"/>
+  <testcase classname="| https://www-staging.red-badger.com/about-us/people |" name="Given I am measuring page performance on &quot;https://www-staging.red-badger.com/about-us/people&quot;" time="0"/>
+  <testcase classname="| https://www-staging.red-badger.com/about-us/people |" name="| https://www-staging.red-badger.com/about-us/people |" time="0.085"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="Given I am on &quot;desktop&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="And I have navigated to &quot;https://www-staging.red-badger.com&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="Then I will see the text &quot;We work with you to deliver digital products that make a difference to people.&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="When I click &quot;What we do&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="Then I will see the text &quot;Do the right thing.&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="When I click &quot;About Us&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="Then I will see the text &quot;This is what we believe – and what the founders say after a couple of pints&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="When I click &quot;Blog&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="Then I will see a &quot;blogs&quot; element" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="And I will see a &quot;all-items&quot; element" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="And I will see a &quot;badger life&quot; element" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="And I will see a &quot;leadership&quot; element" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="And I will see a &quot;news&quot; element" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="And I will see a &quot;opinion&quot; element" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="And I will see a &quot;process&quot; element" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="And I will see a &quot;strategy&quot; element" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="And I will see a &quot;technology&quot; element" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="And I will see a &quot;ux and design&quot; element" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com |" name="| desktop | https://www-staging.red-badger.com |" time="0.147"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="Given I am on &quot;mobile&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="And I have navigated to &quot;https://www-staging.red-badger.com&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="Then I will see the text &quot;We work with you to deliver digital products that make a difference to people.&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="When I click &quot;What we do&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="Then I will see the text &quot;Do the right thing.&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="When I click &quot;About Us&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="Then I will see the text &quot;This is what we believe – and what the founders say after a couple of pints&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="When I click &quot;Blog&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="Then I will see a &quot;blogs&quot; element" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="And I will see a &quot;all-items&quot; element" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="And I will see a &quot;badger life&quot; element" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="And I will see a &quot;leadership&quot; element" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="And I will see a &quot;news&quot; element" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="And I will see a &quot;opinion&quot; element" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="And I will see a &quot;process&quot; element" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="And I will see a &quot;strategy&quot; element" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="And I will see a &quot;technology&quot; element" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="And I will see a &quot;ux and design&quot; element" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com |" name="| mobile | https://www-staging.red-badger.com |" time="0.083"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="Given I am on &quot;tablet&quot;" time="0"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="And I have navigated to &quot;https://www-staging.red-badger.com&quot;" time="0"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="Then I will see the text &quot;We work with you to deliver digital products that make a difference to people.&quot;" time="0"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="When I click &quot;What we do&quot;" time="0"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="Then I will see the text &quot;Do the right thing.&quot;" time="0.001"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="When I click &quot;About Us&quot;" time="0"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="Then I will see the text &quot;This is what we believe – and what the founders say after a couple of pints&quot;" time="0"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="When I click &quot;Blog&quot;" time="0"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="Then I will see a &quot;blogs&quot; element" time="0"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="And I will see a &quot;all-items&quot; element" time="0"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="And I will see a &quot;badger life&quot; element" time="0"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="And I will see a &quot;leadership&quot; element" time="0"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="And I will see a &quot;news&quot; element" time="0"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="And I will see a &quot;opinion&quot; element" time="0"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="And I will see a &quot;process&quot; element" time="0.001"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="And I will see a &quot;strategy&quot; element" time="0"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="And I will see a &quot;technology&quot; element" time="0"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="And I will see a &quot;ux and design&quot; element" time="0"/>
+  <testcase classname="| tablet | https://www-staging.red-badger.com |" name="| tablet | https://www-staging.red-badger.com |" time="0.082"/>
+  <testcase classname="| desktop |" name="Given I am on &quot;desktop&quot;" time="0"/>
+  <testcase classname="| desktop |" name="And I have navigated to &quot;https://www-staging.red-badger.com&quot;" time="0"/>
+  <testcase classname="| desktop |" name="Then I will see a &quot;Top slice&quot; element" time="0"/>
+  <testcase classname="| desktop |" name="And I will see a &quot;case study slice&quot; element" time="0"/>
+  <testcase classname="| desktop |" name="And I will see a &quot;what we do slice&quot; element" time="0"/>
+  <testcase classname="| desktop |" name="And I will see a &quot;tech slice&quot; element" time="0"/>
+  <testcase classname="| desktop |" name="And I will see a &quot;contact us slice&quot; element" time="0"/>
+  <testcase classname="| desktop |" name="And I will see a &quot;blog slice&quot; element" time="0"/>
+  <testcase classname="| desktop |" name="And I will see a &quot;newsletter slice&quot; element" time="0"/>
+  <testcase classname="| desktop |" name="| desktop |" time="0.079"/>
+  <testcase classname="| mobile |" name="Given I am on &quot;mobile&quot;" time="0"/>
+  <testcase classname="| mobile |" name="And I have navigated to &quot;https://www-staging.red-badger.com&quot;" time="0"/>
+  <testcase classname="| mobile |" name="Then I will see a &quot;Top slice&quot; element" time="0"/>
+  <testcase classname="| mobile |" name="And I will see a &quot;case study slice&quot; element" time="0"/>
+  <testcase classname="| mobile |" name="And I will see a &quot;what we do slice&quot; element" time="0"/>
+  <testcase classname="| mobile |" name="And I will see a &quot;tech slice&quot; element" time="0"/>
+  <testcase classname="| mobile |" name="And I will see a &quot;contact us slice&quot; element" time="0"/>
+  <testcase classname="| mobile |" name="And I will see a &quot;blog slice&quot; element" time="0"/>
+  <testcase classname="| mobile |" name="And I will see a &quot;newsletter slice&quot; element" time="0"/>
+  <testcase classname="| mobile |" name="| mobile |" time="0.077"/>
+  <testcase classname="| tablet |" name="Given I am on &quot;tablet&quot;" time="0"/>
+  <testcase classname="| tablet |" name="And I have navigated to &quot;https://www-staging.red-badger.com&quot;" time="0"/>
+  <testcase classname="| tablet |" name="Then I will see a &quot;Top slice&quot; element" time="0"/>
+  <testcase classname="| tablet |" name="And I will see a &quot;case study slice&quot; element" time="0"/>
+  <testcase classname="| tablet |" name="And I will see a &quot;what we do slice&quot; element" time="0"/>
+  <testcase classname="| tablet |" name="And I will see a &quot;tech slice&quot; element" time="0"/>
+  <testcase classname="| tablet |" name="And I will see a &quot;contact us slice&quot; element" time="0"/>
+  <testcase classname="| tablet |" name="And I will see a &quot;blog slice&quot; element" time="0"/>
+  <testcase classname="| tablet |" name="And I will see a &quot;newsletter slice&quot; element" time="0"/>
+  <testcase classname="| tablet |" name="| tablet |" time="0.078"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com | 1000 |" name="Given I am on &quot;desktop&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com | 1000 |" name="And I have navigated to &quot;https://www-staging.red-badger.com&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com | 1000 |" name="Then I expect the perceived page load time to be under &quot;1000&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com | 1000 |" name="| desktop | https://www-staging.red-badger.com | 1000 |" time="0.077"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com/what-we-do | 1000 |" name="Given I am on &quot;desktop&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com/what-we-do | 1000 |" name="And I have navigated to &quot;https://www-staging.red-badger.com/what-we-do&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com/what-we-do | 1000 |" name="Then I expect the perceived page load time to be under &quot;1000&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com/what-we-do | 1000 |" name="| desktop | https://www-staging.red-badger.com/what-we-do | 1000 |" time="0.082"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com/about-us | 1000 |" name="Given I am on &quot;desktop&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com/about-us | 1000 |" name="And I have navigated to &quot;https://www-staging.red-badger.com/about-us&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com/about-us | 1000 |" name="Then I expect the perceived page load time to be under &quot;1000&quot;" time="0.001"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com/about-us | 1000 |" name="| desktop | https://www-staging.red-badger.com/about-us | 1000 |" time="0.08"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com/blog/ | 2000 |" name="Given I am on &quot;desktop&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com/blog/ | 2000 |" name="And I have navigated to &quot;https://www-staging.red-badger.com/blog/&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com/blog/ | 2000 |" name="Then I expect the perceived page load time to be under &quot;2000&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com/blog/ | 2000 |" name="| desktop | https://www-staging.red-badger.com/blog/ | 2000 |" time="0.083"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com/about-us/events/ | 1000 |" name="Given I am on &quot;desktop&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com/about-us/events/ | 1000 |" name="And I have navigated to &quot;https://www-staging.red-badger.com/about-us/events/&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com/about-us/events/ | 1000 |" name="Then I expect the perceived page load time to be under &quot;1000&quot;" time="0"/>
+  <testcase classname="| desktop | https://www-staging.red-badger.com/about-us/events/ | 1000 |" name="| desktop | https://www-staging.red-badger.com/about-us/events/ | 1000 |" time="0.083"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com | 1000 |" name="Given I am on &quot;mobile&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com | 1000 |" name="And I have navigated to &quot;https://www-staging.red-badger.com&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com | 1000 |" name="Then I expect the perceived page load time to be under &quot;1000&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com | 1000 |" name="| mobile | https://www-staging.red-badger.com | 1000 |" time="0.079"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com/what-we-do | 1000 |" name="Given I am on &quot;mobile&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com/what-we-do | 1000 |" name="And I have navigated to &quot;https://www-staging.red-badger.com/what-we-do&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com/what-we-do | 1000 |" name="Then I expect the perceived page load time to be under &quot;1000&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com/what-we-do | 1000 |" name="| mobile | https://www-staging.red-badger.com/what-we-do | 1000 |" time="0.075"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com/about-us | 1000 |" name="Given I am on &quot;mobile&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com/about-us | 1000 |" name="And I have navigated to &quot;https://www-staging.red-badger.com/about-us&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com/about-us | 1000 |" name="Then I expect the perceived page load time to be under &quot;1000&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com/about-us | 1000 |" name="| mobile | https://www-staging.red-badger.com/about-us | 1000 |" time="0.081"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com/blog/ | 2000 |" name="Given I am on &quot;mobile&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com/blog/ | 2000 |" name="And I have navigated to &quot;https://www-staging.red-badger.com/blog/&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com/blog/ | 2000 |" name="Then I expect the perceived page load time to be under &quot;2000&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com/blog/ | 2000 |" name="| mobile | https://www-staging.red-badger.com/blog/ | 2000 |" time="0.077"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com/about-us/events/ | 1000 |" name="Given I am on &quot;mobile&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com/about-us/events/ | 1000 |" name="And I have navigated to &quot;https://www-staging.red-badger.com/about-us/events/&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com/about-us/events/ | 1000 |" name="Then I expect the perceived page load time to be under &quot;1000&quot;" time="0"/>
+  <testcase classname="| mobile | https://www-staging.red-badger.com/about-us/events/ | 1000 |" name="| mobile | https://www-staging.red-badger.com/about-us/events/ | 1000 |" time="0.078"/>
+  <testcase classname="Scenario: Navigate to blog and use the search feature" name="Given I have navigated to &quot;https://www-staging.red-badger.com/blog/&quot;" time="0"/>
+  <testcase classname="Scenario: Navigate to blog and use the search feature" name="Then I will see a &quot;search&quot; element" time="0"/>
+  <testcase classname="Scenario: Navigate to blog and use the search feature" name="When I click &quot;search box&quot;" time="0"/>
+  <testcase classname="Scenario: Navigate to blog and use the search feature" name="When I type &quot;Testing&quot; into the search field" time="0"/>
+  <testcase classname="Scenario: Navigate to blog and use the search feature" name="When I press &quot;enter&quot;" time="0"/>
+  <testcase classname="Scenario: Navigate to blog and use the search feature" name="Then the url will be &quot;https://www-staging.red-badger.com/search?q=Testing&quot;" time="0"/>
+  <testcase classname="Scenario: Navigate to blog and use the search feature" name="And I will see a &quot;results listing&quot; element" time="0"/>
+  <testcase classname="Scenario: Navigate to blog and use the search feature" name="Scenario: Navigate to blog and use the search feature" time="0.104"/>
+</testsuite>

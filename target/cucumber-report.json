@@ -1,0 +1,1134 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3232573250,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.startBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Navigate to Red Badger and perform basic navigation",
+        "description": "",
+        "id": "red-badger-website;navigate-to-red-badger-and-perform-basic-navigation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 90964909,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2068046493,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have navigated to \"https://www-staging.red-badger.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www-staging.red-badger.com",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120593754,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I will see the text \"We work with you to deliver digital products that make a difference to people.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "We work with you to deliver digital products that make a difference to people.",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.verifyTextPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 141154925,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click \"What we do\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "What we do",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefinitions.tap_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119945413,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I will see the text \"Do the right thing.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Do the right thing.",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.verifyTextPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 394175406,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click \"About Us\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "About Us",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefinitions.tap_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 163815699,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I will see the text \"This is what we believe – and what the founders say after a couple of pints\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is what we believe – and what the founders say after a couple of pints",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.verifyTextPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2786457738,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click \"Blog\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blog",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefinitions.tap_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43434073,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I will see a \"blogs\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "blogs",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 180020974,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I will see a \"all-items\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "all-items",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32275223,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I will see a \"badger life\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "badger life",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32526089,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I will see a \"leadership\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "leadership",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72199175,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I will see a \"news\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "news",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32520026,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I will see a \"opinion\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "opinion",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28348920,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I will see a \"process\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "process",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29666098,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I will see a \"strategy\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "strategy",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29937192,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I will see a \"technology\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "technology",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27352506,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I will see a \"ux and design\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ux and design",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2117368737,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click \"Events\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Events",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefinitions.tap_button(String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@FullRegression"
+          },
+          {
+            "line": 4,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 28,
+            "value": "#  |https://www.red-badger.com|"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 982306509,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.startBrowser()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Check that all slices of the Homepage are displayed",
+        "description": "",
+        "id": "red-badger-website;check-that-all-slices-of-the-homepage-are-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 86565866,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1469646134,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I have navigated to \"https://www-staging.red-badger.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www-staging.red-badger.com",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50963827,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I will see a \"Top slice\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Top slice",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38617110,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I will see a \"case study slice\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "case study slice",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28505200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I will see a \"what we do slice\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "what we do slice",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36763265,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I will see a \"tech slice\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tech slice",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33759413,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I will see a \"contact us slice\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contact us slice",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42261535,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I will see a \"blog slice\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "blog slice",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27308246,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I will see a \"newsletter slice\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "newsletter slice",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 30,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 900319455,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.startBrowser()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Print out performance metrics",
+        "description": "",
+        "id": "red-badger-website;print-out-performance-metrics;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 74914117,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1341505909,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I have navigated to \"https://www-staging.red-badger.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www-staging.red-badger.com",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 392306529,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I expect the perceived page load time to be under \"1000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefinitions.isPerformanceAcceptable(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 953919905,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.startBrowser()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Print out performance metrics",
+        "description": "",
+        "id": "red-badger-website;print-out-performance-metrics;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 75330464,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1508701761,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I have navigated to \"https://www-staging.red-badger.com/what-we-do\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www-staging.red-badger.com/what-we-do",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 392415192,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I expect the perceived page load time to be under \"1000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefinitions.isPerformanceAcceptable(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 941419283,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.startBrowser()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Print out performance metrics",
+        "description": "",
+        "id": "red-badger-website;print-out-performance-metrics;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 87199396,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3626808519,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I have navigated to \"https://www-staging.red-badger.com/about-us\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www-staging.red-badger.com/about-us",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 435477435,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I expect the perceived page load time to be under \"1000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefinitions.isPerformanceAcceptable(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1005439185,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.startBrowser()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "Print out performance metrics",
+        "description": "",
+        "id": "red-badger-website;print-out-performance-metrics;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 88697698,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2310336519,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I have navigated to \"https://www-staging.red-badger.com/blog/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www-staging.red-badger.com/blog/",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1588274618,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I expect the perceived page load time to be under \"2000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2000",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefinitions.isPerformanceAcceptable(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 913083454,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.startBrowser()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Print out performance metrics",
+        "description": "",
+        "id": "red-badger-website;print-out-performance-metrics;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 81023760,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2410557389,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I have navigated to \"https://www-staging.red-badger.com/about-us/events/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www-staging.red-badger.com/about-us/events/",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2212931947,
+              "error_message": "java.lang.Exception: perceived load time too slow \n\n\tat com.cucumber.StepDefinitions.isPerformanceAcceptable(StepDefinitions.java:71)\n\tat ✽.Then I expect the perceived page load time to be under \"1000\"(RedBadger.feature:44)\n",
+              "status": "failed"
+            },
+            "line": 44,
+            "name": "I expect the perceived page load time to be under \"1000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefinitions.isPerformanceAcceptable(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 973224239,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.startBrowser()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "Navigate to blog and use the search feature",
+        "description": "",
+        "id": "red-badger-website;navigate-to-blog-and-use-the-search-feature",
+        "after": [
+          {
+            "result": {
+              "duration": 79798500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4161490939,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I have navigated to \"https://www-staging.red-badger.com/blog/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www-staging.red-badger.com/blog/",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 191648098,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I will see a \"search\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72967,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I click \"search box\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search box",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefinitions.tap_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130325851,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I type \"Testing\" into the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing",
+                  "offset": 8
+                }
+              ],
+              "location": "StepDefinitions.typeInField(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4865947025,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I press \"enter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "enter",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefinitions.pressKey(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60072805,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "the url will be \"https://www-staging.red-badger.com/search?q\u003dTesting\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www-staging.red-badger.com/search?q\u003dTesting",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinitions.checkUrl(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 421904236,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I will see a \"results listing\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "results listing",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.isElementPresent(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 55,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Red Badger Website",
+    "description": "",
+    "id": "red-badger-website",
+    "keyword": "Feature",
+    "uri": "RedBadger.feature"
+  }
+]

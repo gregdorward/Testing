@@ -1,0 +1,6 @@
+<h1>Website Performance Stats</h1><p>The percived load time for https://www.google.com is 1082ms</p>
+<p>The DOM was interactable after 150ms</p> 
+<p>The DOM content begun loading after 150ms</p> 
+<p>The DOM was fully loaded after 664ms</p> 
+<p>The time taken from navigationStart to LoadEventEnd was 1064ms</p>
+
