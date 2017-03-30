@@ -1,4 +1,4 @@
-Feature: Red Badger Website
+Feature: Red Badger Website Sanity Check
 
   @SmokeTest
     Scenario Outline: Navigate to a page to measure performance
