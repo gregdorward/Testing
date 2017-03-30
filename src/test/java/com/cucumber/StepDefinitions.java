@@ -22,10 +22,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
-/**
- * Created by gregdorward on 25/01/2017.
- */
-
 public class StepDefinitions {
 
     public static ChromeDriver driver;
@@ -82,7 +78,7 @@ public class StepDefinitions {
         long domLoaded = (long) driver.executeScript("return performance.timing.domComplete - performance.timing.domLoading");
         long endToEndLoadTime = (long) driver.executeScript("return performance.timing.loadEventEnd - performance.timing.navigationStart");
 
-        String FILENAME = "/Users/gregdorward/Documents/testOutput.html";
+        String FILENAME = "target/cucumber/testOutput.html";
 
         BufferedWriter bw = null;
         FileWriter fw = null;
