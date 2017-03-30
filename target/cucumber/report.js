@@ -1,16 +1,16 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("RedBadger.feature");
 formatter.feature({
   "line": 1,
-  "name": "Red Badger Website",
+  "name": "Red Badger Website Sanity Check",
   "description": "",
-  "id": "red-badger-website",
+  "id": "red-badger-website-sanity-check",
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
   "line": 4,
   "name": "Navigate to a page to measure performance",
   "description": "",
-  "id": "red-badger-website;navigate-to-a-page-to-measure-performance",
+  "id": "red-badger-website-sanity-check;navigate-to-a-page-to-measure-performance",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
@@ -29,62 +29,62 @@ formatter.examples({
   "line": 6,
   "name": "",
   "description": "",
-  "id": "red-badger-website;navigate-to-a-page-to-measure-performance;",
+  "id": "red-badger-website-sanity-check;navigate-to-a-page-to-measure-performance;",
   "rows": [
     {
       "cells": [
         "url"
       ],
       "line": 7,
-      "id": "red-badger-website;navigate-to-a-page-to-measure-performance;;1"
+      "id": "red-badger-website-sanity-check;navigate-to-a-page-to-measure-performance;;1"
     },
     {
       "cells": [
         "https://www-staging.red-badger.com"
       ],
       "line": 8,
-      "id": "red-badger-website;navigate-to-a-page-to-measure-performance;;2"
+      "id": "red-badger-website-sanity-check;navigate-to-a-page-to-measure-performance;;2"
     },
     {
       "cells": [
         "https://www-staging.red-badger.com/what-we-do"
       ],
       "line": 9,
-      "id": "red-badger-website;navigate-to-a-page-to-measure-performance;;3"
+      "id": "red-badger-website-sanity-check;navigate-to-a-page-to-measure-performance;;3"
     },
     {
       "cells": [
         "https://www-staging.red-badger.com/our-work"
       ],
       "line": 10,
-      "id": "red-badger-website;navigate-to-a-page-to-measure-performance;;4"
+      "id": "red-badger-website-sanity-check;navigate-to-a-page-to-measure-performance;;4"
     },
     {
       "cells": [
         "https://www-staging.red-badger.com/about-us"
       ],
       "line": 11,
-      "id": "red-badger-website;navigate-to-a-page-to-measure-performance;;5"
+      "id": "red-badger-website-sanity-check;navigate-to-a-page-to-measure-performance;;5"
     },
     {
       "cells": [
         "https://www-staging.red-badger.com/about-us/people"
       ],
       "line": 12,
-      "id": "red-badger-website;navigate-to-a-page-to-measure-performance;;6"
+      "id": "red-badger-website-sanity-check;navigate-to-a-page-to-measure-performance;;6"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1787214907,
+  "duration": 2025445194,
   "status": "passed"
 });
 formatter.scenario({
   "line": 8,
   "name": "Navigate to a page to measure performance",
   "description": "",
-  "id": "red-badger-website;navigate-to-a-page-to-measure-performance;;2",
+  "id": "red-badger-website-sanity-check;navigate-to-a-page-to-measure-performance;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -112,22 +112,22 @@ formatter.match({
   "location": "StepDefinitions.getPagePerformance(String)"
 });
 formatter.result({
-  "duration": 1950285872,
+  "duration": 2545650141,
   "status": "passed"
 });
 formatter.after({
-  "duration": 83439326,
+  "duration": 82073983,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1026515073,
+  "duration": 1204478795,
   "status": "passed"
 });
 formatter.scenario({
   "line": 9,
   "name": "Navigate to a page to measure performance",
   "description": "",
-  "id": "red-badger-website;navigate-to-a-page-to-measure-performance;;3",
+  "id": "red-badger-website-sanity-check;navigate-to-a-page-to-measure-performance;;3",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -155,22 +155,22 @@ formatter.match({
   "location": "StepDefinitions.getPagePerformance(String)"
 });
 formatter.result({
-  "duration": 1832348123,
+  "duration": 4368587428,
   "status": "passed"
 });
 formatter.after({
-  "duration": 74054735,
+  "duration": 73760822,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1125879663,
+  "duration": 1057428147,
   "status": "passed"
 });
 formatter.scenario({
   "line": 10,
   "name": "Navigate to a page to measure performance",
   "description": "",
-  "id": "red-badger-website;navigate-to-a-page-to-measure-performance;;4",
+  "id": "red-badger-website-sanity-check;navigate-to-a-page-to-measure-performance;;4",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -198,22 +198,22 @@ formatter.match({
   "location": "StepDefinitions.getPagePerformance(String)"
 });
 formatter.result({
-  "duration": 3608821103,
+  "duration": 7522943566,
   "status": "passed"
 });
 formatter.after({
-  "duration": 81125410,
+  "duration": 74976572,
   "status": "passed"
 });
 formatter.before({
-  "duration": 972731739,
+  "duration": 992821651,
   "status": "passed"
 });
 formatter.scenario({
   "line": 11,
   "name": "Navigate to a page to measure performance",
   "description": "",
-  "id": "red-badger-website;navigate-to-a-page-to-measure-performance;;5",
+  "id": "red-badger-website-sanity-check;navigate-to-a-page-to-measure-performance;;5",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -241,22 +241,22 @@ formatter.match({
   "location": "StepDefinitions.getPagePerformance(String)"
 });
 formatter.result({
-  "duration": 2969416205,
+  "duration": 4025091699,
   "status": "passed"
 });
 formatter.after({
-  "duration": 77100833,
+  "duration": 77327414,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1194788731,
+  "duration": 838425511,
   "status": "passed"
 });
 formatter.scenario({
   "line": 12,
   "name": "Navigate to a page to measure performance",
   "description": "",
-  "id": "red-badger-website;navigate-to-a-page-to-measure-performance;;6",
+  "id": "red-badger-website-sanity-check;navigate-to-a-page-to-measure-performance;;6",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -284,18 +284,18 @@ formatter.match({
   "location": "StepDefinitions.getPagePerformance(String)"
 });
 formatter.result({
-  "duration": 1665185428,
+  "duration": 1764140306,
   "status": "passed"
 });
 formatter.after({
-  "duration": 84513253,
+  "duration": 75902608,
   "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 16,
   "name": "Navigate to Red Badger and perform basic navigation",
   "description": "",
-  "id": "red-badger-website;navigate-to-red-badger-and-perform-basic-navigation",
+  "id": "red-badger-website-sanity-check;navigate-to-red-badger-and-perform-basic-navigation",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
@@ -403,7 +403,7 @@ formatter.examples({
   "line": 37,
   "name": "",
   "description": "",
-  "id": "red-badger-website;navigate-to-red-badger-and-perform-basic-navigation;",
+  "id": "red-badger-website-sanity-check;navigate-to-red-badger-and-perform-basic-navigation;",
   "rows": [
     {
       "cells": [
@@ -411,7 +411,7 @@ formatter.examples({
         "url"
       ],
       "line": 38,
-      "id": "red-badger-website;navigate-to-red-badger-and-perform-basic-navigation;;1"
+      "id": "red-badger-website-sanity-check;navigate-to-red-badger-and-perform-basic-navigation;;1"
     },
     {
       "cells": [
@@ -419,7 +419,7 @@ formatter.examples({
         "https://www-staging.red-badger.com"
       ],
       "line": 39,
-      "id": "red-badger-website;navigate-to-red-badger-and-perform-basic-navigation;;2"
+      "id": "red-badger-website-sanity-check;navigate-to-red-badger-and-perform-basic-navigation;;2"
     },
     {
       "cells": [
@@ -427,7 +427,7 @@ formatter.examples({
         "https://www-staging.red-badger.com"
       ],
       "line": 40,
-      "id": "red-badger-website;navigate-to-red-badger-and-perform-basic-navigation;;3"
+      "id": "red-badger-website-sanity-check;navigate-to-red-badger-and-perform-basic-navigation;;3"
     },
     {
       "cells": [
@@ -435,20 +435,20 @@ formatter.examples({
         "https://www-staging.red-badger.com"
       ],
       "line": 41,
-      "id": "red-badger-website;navigate-to-red-badger-and-perform-basic-navigation;;4"
+      "id": "red-badger-website-sanity-check;navigate-to-red-badger-and-perform-basic-navigation;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1038419686,
+  "duration": 871133358,
   "status": "passed"
 });
 formatter.scenario({
   "line": 39,
   "name": "Navigate to Red Badger and perform basic navigation",
   "description": "",
-  "id": "red-badger-website;navigate-to-red-badger-and-perform-basic-navigation;;2",
+  "id": "red-badger-website-sanity-check;navigate-to-red-badger-and-perform-basic-navigation;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -568,7 +568,7 @@ formatter.match({
   "location": "StepDefinitions.setScreenSize(String)"
 });
 formatter.result({
-  "duration": 281808643,
+  "duration": 230906123,
   "status": "passed"
 });
 formatter.match({
@@ -581,7 +581,7 @@ formatter.match({
   "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
 });
 formatter.result({
-  "duration": 1428219137,
+  "duration": 1951264945,
   "status": "passed"
 });
 formatter.match({
@@ -594,7 +594,7 @@ formatter.match({
   "location": "StepDefinitions.verifyTextPresent(String)"
 });
 formatter.result({
-  "duration": 58291308,
+  "duration": 82767651,
   "status": "passed"
 });
 formatter.match({
@@ -607,7 +607,7 @@ formatter.match({
   "location": "StepDefinitions.tap_button(String)"
 });
 formatter.result({
-  "duration": 155776451,
+  "duration": 141871712,
   "status": "passed"
 });
 formatter.match({
@@ -620,7 +620,7 @@ formatter.match({
   "location": "StepDefinitions.verifyTextPresent(String)"
 });
 formatter.result({
-  "duration": 75591973,
+  "duration": 79786127,
   "status": "passed"
 });
 formatter.match({
@@ -633,7 +633,7 @@ formatter.match({
   "location": "StepDefinitions.tap_button(String)"
 });
 formatter.result({
-  "duration": 267236958,
+  "duration": 396083483,
   "status": "passed"
 });
 formatter.match({
@@ -646,7 +646,7 @@ formatter.match({
   "location": "StepDefinitions.verifyTextPresent(String)"
 });
 formatter.result({
-  "duration": 87430282,
+  "duration": 281208078,
   "status": "passed"
 });
 formatter.match({
@@ -659,7 +659,7 @@ formatter.match({
   "location": "StepDefinitions.tap_button(String)"
 });
 formatter.result({
-  "duration": 1626950385,
+  "duration": 2678627628,
   "status": "passed"
 });
 formatter.match({
@@ -672,7 +672,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 28631235,
+  "duration": 24465880,
   "status": "passed"
 });
 formatter.match({
@@ -685,7 +685,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 31776945,
+  "duration": 19927937,
   "status": "passed"
 });
 formatter.match({
@@ -698,7 +698,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 152078415,
+  "duration": 24365047,
   "status": "passed"
 });
 formatter.match({
@@ -711,7 +711,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 21149822,
+  "duration": 21273884,
   "status": "passed"
 });
 formatter.match({
@@ -724,7 +724,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 24111698,
+  "duration": 172510441,
   "status": "passed"
 });
 formatter.match({
@@ -737,7 +737,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 30546717,
+  "duration": 20109982,
   "status": "passed"
 });
 formatter.match({
@@ -750,7 +750,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 19810781,
+  "duration": 40149468,
   "status": "passed"
 });
 formatter.match({
@@ -763,7 +763,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 18750851,
+  "duration": 19117058,
   "status": "passed"
 });
 formatter.match({
@@ -776,7 +776,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 24522314,
+  "duration": 25724360,
   "status": "passed"
 });
 formatter.match({
@@ -789,22 +789,22 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 36214726,
+  "duration": 18227303,
   "status": "passed"
 });
 formatter.after({
-  "duration": 145283307,
+  "duration": 83097101,
   "status": "passed"
 });
 formatter.before({
-  "duration": 992295731,
+  "duration": 886328052,
   "status": "passed"
 });
 formatter.scenario({
   "line": 40,
   "name": "Navigate to Red Badger and perform basic navigation",
   "description": "",
-  "id": "red-badger-website;navigate-to-red-badger-and-perform-basic-navigation;;3",
+  "id": "red-badger-website-sanity-check;navigate-to-red-badger-and-perform-basic-navigation;;3",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -924,7 +924,7 @@ formatter.match({
   "location": "StepDefinitions.setScreenSize(String)"
 });
 formatter.result({
-  "duration": 256702749,
+  "duration": 268039210,
   "status": "passed"
 });
 formatter.match({
@@ -937,7 +937,7 @@ formatter.match({
   "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
 });
 formatter.result({
-  "duration": 1702234006,
+  "duration": 1351151299,
   "status": "passed"
 });
 formatter.match({
@@ -950,7 +950,7 @@ formatter.match({
   "location": "StepDefinitions.verifyTextPresent(String)"
 });
 formatter.result({
-  "duration": 48690838,
+  "duration": 47604661,
   "status": "passed"
 });
 formatter.match({
@@ -963,7 +963,7 @@ formatter.match({
   "location": "StepDefinitions.tap_button(String)"
 });
 formatter.result({
-  "duration": 359991467,
+  "duration": 802050616,
   "status": "passed"
 });
 formatter.match({
@@ -976,7 +976,7 @@ formatter.match({
   "location": "StepDefinitions.verifyTextPresent(String)"
 });
 formatter.result({
-  "duration": 72832102,
+  "duration": 51194122,
   "status": "passed"
 });
 formatter.match({
@@ -989,8 +989,9 @@ formatter.match({
   "location": "StepDefinitions.tap_button(String)"
 });
 formatter.result({
-  "duration": 754738020,
-  "status": "passed"
+  "duration": 124052745,
+  "error_message": "org.openqa.selenium.WebDriverException: unknown error: Element \u003clabel for\u003d\"burger\" class\u003d\"style__triggerLabel___13NDI _fonts__boldSansSerif___1G6P5 _fonts__fontXS___2mdTk\"\u003e...\u003c/label\u003e is not clickable at point (356, 35). Other element would receive the click: \u003cdiv class\u003d\"style__smallScreenNavMargin___29oP1\"\u003e\u003c/div\u003e\n  (Session info: chrome\u003d56.0.2924.87)\n  (Driver info: chromedriver\u003d2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform\u003dMac OS X 10.11.4 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 58 milliseconds\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027Gregs-MacBook-Pro.local\u0027, ip: \u0027192.168.1.17\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.11.4\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir\u003d/var/folders/t1/v5_pkq097wz_t8bx5bltg_6c0000gn/T/.org.chromium.Chromium.FlMbjS}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, hasTouchScreen\u003dfalse, version\u003d56.0.2924.87, platform\u003dMAC, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003d}]\nSession ID: 413d48c7594dce43acd174068b683e72\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat com.cucumber.StepDefinitions.tap_button(StepDefinitions.java:187)\n\tat ✽.When I click \"About Us\"(RedBadger.feature:22)\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -1002,8 +1003,7 @@ formatter.match({
   "location": "StepDefinitions.verifyTextPresent(String)"
 });
 formatter.result({
-  "duration": 177226630,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1015,8 +1015,7 @@ formatter.match({
   "location": "StepDefinitions.tap_button(String)"
 });
 formatter.result({
-  "duration": 2198533132,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1028,8 +1027,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 23570475,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1041,8 +1039,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 19102163,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1054,8 +1051,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 27733527,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1067,8 +1063,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 150898719,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1080,8 +1075,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 19482615,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1093,8 +1087,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 25790439,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1106,8 +1099,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 21530652,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1119,8 +1111,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 25507128,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1132,8 +1123,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 22991043,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1145,22 +1135,21 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 24679070,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 81781141,
+  "duration": 74914166,
   "status": "passed"
 });
 formatter.before({
-  "duration": 839715811,
+  "duration": 834628459,
   "status": "passed"
 });
 formatter.scenario({
   "line": 41,
   "name": "Navigate to Red Badger and perform basic navigation",
   "description": "",
-  "id": "red-badger-website;navigate-to-red-badger-and-perform-basic-navigation;;4",
+  "id": "red-badger-website-sanity-check;navigate-to-red-badger-and-perform-basic-navigation;;4",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -1280,7 +1269,7 @@ formatter.match({
   "location": "StepDefinitions.setScreenSize(String)"
 });
 formatter.result({
-  "duration": 242707389,
+  "duration": 293082584,
   "status": "passed"
 });
 formatter.match({
@@ -1293,7 +1282,7 @@ formatter.match({
   "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
 });
 formatter.result({
-  "duration": 1315459562,
+  "duration": 1481358532,
   "status": "passed"
 });
 formatter.match({
@@ -1306,7 +1295,7 @@ formatter.match({
   "location": "StepDefinitions.verifyTextPresent(String)"
 });
 formatter.result({
-  "duration": 43557624,
+  "duration": 159953412,
   "status": "passed"
 });
 formatter.match({
@@ -1319,7 +1308,7 @@ formatter.match({
   "location": "StepDefinitions.tap_button(String)"
 });
 formatter.result({
-  "duration": 112170983,
+  "duration": 158398219,
   "status": "passed"
 });
 formatter.match({
@@ -1332,7 +1321,7 @@ formatter.match({
   "location": "StepDefinitions.verifyTextPresent(String)"
 });
 formatter.result({
-  "duration": 81663391,
+  "duration": 58799312,
   "status": "passed"
 });
 formatter.match({
@@ -1345,7 +1334,7 @@ formatter.match({
   "location": "StepDefinitions.tap_button(String)"
 });
 formatter.result({
-  "duration": 236578702,
+  "duration": 331936598,
   "status": "passed"
 });
 formatter.match({
@@ -1358,7 +1347,7 @@ formatter.match({
   "location": "StepDefinitions.verifyTextPresent(String)"
 });
 formatter.result({
-  "duration": 110377585,
+  "duration": 142108701,
   "status": "passed"
 });
 formatter.match({
@@ -1371,7 +1360,7 @@ formatter.match({
   "location": "StepDefinitions.tap_button(String)"
 });
 formatter.result({
-  "duration": 1604154597,
+  "duration": 2825461950,
   "status": "passed"
 });
 formatter.match({
@@ -1384,7 +1373,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 21938041,
+  "duration": 22365347,
   "status": "passed"
 });
 formatter.match({
@@ -1397,7 +1386,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 20079482,
+  "duration": 20405237,
   "status": "passed"
 });
 formatter.match({
@@ -1410,7 +1399,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 147113155,
+  "duration": 26008077,
   "status": "passed"
 });
 formatter.match({
@@ -1423,7 +1412,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 22706882,
+  "duration": 165381210,
   "status": "passed"
 });
 formatter.match({
@@ -1436,7 +1425,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 27601833,
+  "duration": 20577297,
   "status": "passed"
 });
 formatter.match({
@@ -1449,7 +1438,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 21166221,
+  "duration": 27560212,
   "status": "passed"
 });
 formatter.match({
@@ -1462,7 +1451,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 25376118,
+  "duration": 25735542,
   "status": "passed"
 });
 formatter.match({
@@ -1475,7 +1464,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 18845072,
+  "duration": 24687327,
   "status": "passed"
 });
 formatter.match({
@@ -1488,7 +1477,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 23502311,
+  "duration": 19621183,
   "status": "passed"
 });
 formatter.match({
@@ -1501,18 +1490,18 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 18955775,
+  "duration": 23919406,
   "status": "passed"
 });
 formatter.after({
-  "duration": 81203012,
+  "duration": 82701200,
   "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 45,
   "name": "Check that all slices of the Homepage are displayed",
   "description": "",
-  "id": "red-badger-website;check-that-all-slices-of-the-homepage-are-displayed",
+  "id": "red-badger-website-sanity-check;check-that-all-slices-of-the-homepage-are-displayed",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
@@ -1571,48 +1560,48 @@ formatter.examples({
   "line": 56,
   "name": "",
   "description": "",
-  "id": "red-badger-website;check-that-all-slices-of-the-homepage-are-displayed;",
+  "id": "red-badger-website-sanity-check;check-that-all-slices-of-the-homepage-are-displayed;",
   "rows": [
     {
       "cells": [
         "viewport"
       ],
       "line": 57,
-      "id": "red-badger-website;check-that-all-slices-of-the-homepage-are-displayed;;1"
+      "id": "red-badger-website-sanity-check;check-that-all-slices-of-the-homepage-are-displayed;;1"
     },
     {
       "cells": [
         "desktop"
       ],
       "line": 58,
-      "id": "red-badger-website;check-that-all-slices-of-the-homepage-are-displayed;;2"
+      "id": "red-badger-website-sanity-check;check-that-all-slices-of-the-homepage-are-displayed;;2"
     },
     {
       "cells": [
         "mobile"
       ],
       "line": 59,
-      "id": "red-badger-website;check-that-all-slices-of-the-homepage-are-displayed;;3"
+      "id": "red-badger-website-sanity-check;check-that-all-slices-of-the-homepage-are-displayed;;3"
     },
     {
       "cells": [
         "tablet"
       ],
       "line": 60,
-      "id": "red-badger-website;check-that-all-slices-of-the-homepage-are-displayed;;4"
+      "id": "red-badger-website-sanity-check;check-that-all-slices-of-the-homepage-are-displayed;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 831490755,
+  "duration": 1119791704,
   "status": "passed"
 });
 formatter.scenario({
   "line": 58,
   "name": "Check that all slices of the Homepage are displayed",
   "description": "",
-  "id": "red-badger-website;check-that-all-slices-of-the-homepage-are-displayed;;2",
+  "id": "red-badger-website-sanity-check;check-that-all-slices-of-the-homepage-are-displayed;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -1680,7 +1669,7 @@ formatter.match({
   "location": "StepDefinitions.setScreenSize(String)"
 });
 formatter.result({
-  "duration": 262000646,
+  "duration": 359003984,
   "status": "passed"
 });
 formatter.match({
@@ -1693,7 +1682,7 @@ formatter.match({
   "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
 });
 formatter.result({
-  "duration": 1448551248,
+  "duration": 1465373338,
   "status": "passed"
 });
 formatter.match({
@@ -1706,7 +1695,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 40619393,
+  "duration": 19791641,
   "status": "passed"
 });
 formatter.match({
@@ -1719,7 +1708,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 31791048,
+  "duration": 18315417,
   "status": "passed"
 });
 formatter.match({
@@ -1732,7 +1721,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 20121433,
+  "duration": 23692085,
   "status": "passed"
 });
 formatter.match({
@@ -1745,7 +1734,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 20422153,
+  "duration": 17873130,
   "status": "passed"
 });
 formatter.match({
@@ -1758,7 +1747,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 20448055,
+  "duration": 20797371,
   "status": "passed"
 });
 formatter.match({
@@ -1771,7 +1760,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 20626148,
+  "duration": 18958057,
   "status": "passed"
 });
 formatter.match({
@@ -1784,22 +1773,22 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 20342214,
+  "duration": 20572190,
   "status": "passed"
 });
 formatter.after({
-  "duration": 75062335,
+  "duration": 74063365,
   "status": "passed"
 });
 formatter.before({
-  "duration": 845191243,
+  "duration": 1079119308,
   "status": "passed"
 });
 formatter.scenario({
   "line": 59,
   "name": "Check that all slices of the Homepage are displayed",
   "description": "",
-  "id": "red-badger-website;check-that-all-slices-of-the-homepage-are-displayed;;3",
+  "id": "red-badger-website-sanity-check;check-that-all-slices-of-the-homepage-are-displayed;;3",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -1867,7 +1856,7 @@ formatter.match({
   "location": "StepDefinitions.setScreenSize(String)"
 });
 formatter.result({
-  "duration": 198289190,
+  "duration": 311225960,
   "status": "passed"
 });
 formatter.match({
@@ -1880,7 +1869,7 @@ formatter.match({
   "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
 });
 formatter.result({
-  "duration": 1365038219,
+  "duration": 1369275298,
   "status": "passed"
 });
 formatter.match({
@@ -1893,7 +1882,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 24615692,
+  "duration": 39455207,
   "status": "passed"
 });
 formatter.match({
@@ -1906,7 +1895,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 21005567,
+  "duration": 19674393,
   "status": "passed"
 });
 formatter.match({
@@ -1919,7 +1908,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 22342437,
+  "duration": 24058682,
   "status": "passed"
 });
 formatter.match({
@@ -1932,7 +1921,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 19055282,
+  "duration": 21151072,
   "status": "passed"
 });
 formatter.match({
@@ -1945,7 +1934,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 19571044,
+  "duration": 20904261,
   "status": "passed"
 });
 formatter.match({
@@ -1958,7 +1947,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 20836781,
+  "duration": 22935967,
   "status": "passed"
 });
 formatter.match({
@@ -1971,22 +1960,22 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 20077037,
+  "duration": 18080866,
   "status": "passed"
 });
 formatter.after({
-  "duration": 76915522,
+  "duration": 75768245,
   "status": "passed"
 });
 formatter.before({
-  "duration": 777987102,
+  "duration": 830518270,
   "status": "passed"
 });
 formatter.scenario({
   "line": 60,
   "name": "Check that all slices of the Homepage are displayed",
   "description": "",
-  "id": "red-badger-website;check-that-all-slices-of-the-homepage-are-displayed;;4",
+  "id": "red-badger-website-sanity-check;check-that-all-slices-of-the-homepage-are-displayed;;4",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -2054,7 +2043,7 @@ formatter.match({
   "location": "StepDefinitions.setScreenSize(String)"
 });
 formatter.result({
-  "duration": 276595421,
+  "duration": 294740403,
   "status": "passed"
 });
 formatter.match({
@@ -2067,7 +2056,7 @@ formatter.match({
   "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
 });
 formatter.result({
-  "duration": 1710954877,
+  "duration": 1346142799,
   "status": "passed"
 });
 formatter.match({
@@ -2080,7 +2069,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 21300743,
+  "duration": 27129240,
   "status": "passed"
 });
 formatter.match({
@@ -2093,7 +2082,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 23170068,
+  "duration": 20123588,
   "status": "passed"
 });
 formatter.match({
@@ -2106,7 +2095,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 21911956,
+  "duration": 22217809,
   "status": "passed"
 });
 formatter.match({
@@ -2119,7 +2108,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 19245449,
+  "duration": 20413214,
   "status": "passed"
 });
 formatter.match({
@@ -2132,7 +2121,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 21361190,
+  "duration": 19677813,
   "status": "passed"
 });
 formatter.match({
@@ -2145,7 +2134,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 18185052,
+  "duration": 23799779,
   "status": "passed"
 });
 formatter.match({
@@ -2158,18 +2147,18 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 23431760,
+  "duration": 18716574,
   "status": "passed"
 });
 formatter.after({
-  "duration": 77545480,
+  "duration": 71953345,
   "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 63,
   "name": "Print out performance metrics",
   "description": "",
-  "id": "red-badger-website;print-out-performance-metrics",
+  "id": "red-badger-website-sanity-check;print-out-performance-metrics",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
@@ -2198,7 +2187,7 @@ formatter.examples({
   "line": 68,
   "name": "",
   "description": "",
-  "id": "red-badger-website;print-out-performance-metrics;",
+  "id": "red-badger-website-sanity-check;print-out-performance-metrics;",
   "rows": [
     {
       "cells": [
@@ -2207,7 +2196,7 @@ formatter.examples({
         "expectedLoadTime"
       ],
       "line": 69,
-      "id": "red-badger-website;print-out-performance-metrics;;1"
+      "id": "red-badger-website-sanity-check;print-out-performance-metrics;;1"
     },
     {
       "cells": [
@@ -2216,7 +2205,7 @@ formatter.examples({
         "1000"
       ],
       "line": 70,
-      "id": "red-badger-website;print-out-performance-metrics;;2"
+      "id": "red-badger-website-sanity-check;print-out-performance-metrics;;2"
     },
     {
       "cells": [
@@ -2225,7 +2214,7 @@ formatter.examples({
         "1000"
       ],
       "line": 71,
-      "id": "red-badger-website;print-out-performance-metrics;;3"
+      "id": "red-badger-website-sanity-check;print-out-performance-metrics;;3"
     },
     {
       "cells": [
@@ -2234,7 +2223,7 @@ formatter.examples({
         "1000"
       ],
       "line": 72,
-      "id": "red-badger-website;print-out-performance-metrics;;4"
+      "id": "red-badger-website-sanity-check;print-out-performance-metrics;;4"
     },
     {
       "cells": [
@@ -2243,7 +2232,7 @@ formatter.examples({
         "2000"
       ],
       "line": 73,
-      "id": "red-badger-website;print-out-performance-metrics;;5"
+      "id": "red-badger-website-sanity-check;print-out-performance-metrics;;5"
     },
     {
       "cells": [
@@ -2252,7 +2241,7 @@ formatter.examples({
         "1000"
       ],
       "line": 74,
-      "id": "red-badger-website;print-out-performance-metrics;;6"
+      "id": "red-badger-website-sanity-check;print-out-performance-metrics;;6"
     },
     {
       "cells": [
@@ -2261,7 +2250,7 @@ formatter.examples({
         "1000"
       ],
       "line": 75,
-      "id": "red-badger-website;print-out-performance-metrics;;7"
+      "id": "red-badger-website-sanity-check;print-out-performance-metrics;;7"
     },
     {
       "cells": [
@@ -2270,7 +2259,7 @@ formatter.examples({
         "1000"
       ],
       "line": 76,
-      "id": "red-badger-website;print-out-performance-metrics;;8"
+      "id": "red-badger-website-sanity-check;print-out-performance-metrics;;8"
     },
     {
       "cells": [
@@ -2279,7 +2268,7 @@ formatter.examples({
         "1000"
       ],
       "line": 77,
-      "id": "red-badger-website;print-out-performance-metrics;;9"
+      "id": "red-badger-website-sanity-check;print-out-performance-metrics;;9"
     },
     {
       "cells": [
@@ -2288,7 +2277,7 @@ formatter.examples({
         "2000"
       ],
       "line": 78,
-      "id": "red-badger-website;print-out-performance-metrics;;10"
+      "id": "red-badger-website-sanity-check;print-out-performance-metrics;;10"
     },
     {
       "cells": [
@@ -2297,20 +2286,20 @@ formatter.examples({
         "1000"
       ],
       "line": 79,
-      "id": "red-badger-website;print-out-performance-metrics;;11"
+      "id": "red-badger-website-sanity-check;print-out-performance-metrics;;11"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 824195043,
+  "duration": 817222436,
   "status": "passed"
 });
 formatter.scenario({
   "line": 70,
   "name": "Print out performance metrics",
   "description": "",
-  "id": "red-badger-website;print-out-performance-metrics;;2",
+  "id": "red-badger-website-sanity-check;print-out-performance-metrics;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -2354,7 +2343,7 @@ formatter.match({
   "location": "StepDefinitions.setScreenSize(String)"
 });
 formatter.result({
-  "duration": 261770277,
+  "duration": 274551292,
   "status": "passed"
 });
 formatter.match({
@@ -2367,7 +2356,7 @@ formatter.match({
   "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
 });
 formatter.result({
-  "duration": 1310430552,
+  "duration": 1291656016,
   "status": "passed"
 });
 formatter.match({
@@ -2380,22 +2369,22 @@ formatter.match({
   "location": "StepDefinitions.isPerformanceAcceptable(int)"
 });
 formatter.result({
-  "duration": 323830130,
+  "duration": 475332769,
   "status": "passed"
 });
 formatter.after({
-  "duration": 76607298,
+  "duration": 77131633,
   "status": "passed"
 });
 formatter.before({
-  "duration": 801857562,
+  "duration": 859499783,
   "status": "passed"
 });
 formatter.scenario({
   "line": 71,
   "name": "Print out performance metrics",
   "description": "",
-  "id": "red-badger-website;print-out-performance-metrics;;3",
+  "id": "red-badger-website-sanity-check;print-out-performance-metrics;;3",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -2439,7 +2428,7 @@ formatter.match({
   "location": "StepDefinitions.setScreenSize(String)"
 });
 formatter.result({
-  "duration": 262635083,
+  "duration": 240519868,
   "status": "passed"
 });
 formatter.match({
@@ -2452,7 +2441,7 @@ formatter.match({
   "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
 });
 formatter.result({
-  "duration": 1639519605,
+  "duration": 1805663032,
   "status": "passed"
 });
 formatter.match({
@@ -2465,22 +2454,22 @@ formatter.match({
   "location": "StepDefinitions.isPerformanceAcceptable(int)"
 });
 formatter.result({
-  "duration": 294243900,
+  "duration": 390995943,
   "status": "passed"
 });
 formatter.after({
-  "duration": 79950124,
+  "duration": 77129095,
   "status": "passed"
 });
 formatter.before({
-  "duration": 817180246,
+  "duration": 889223007,
   "status": "passed"
 });
 formatter.scenario({
   "line": 72,
   "name": "Print out performance metrics",
   "description": "",
-  "id": "red-badger-website;print-out-performance-metrics;;4",
+  "id": "red-badger-website-sanity-check;print-out-performance-metrics;;4",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -2524,7 +2513,7 @@ formatter.match({
   "location": "StepDefinitions.setScreenSize(String)"
 });
 formatter.result({
-  "duration": 282773117,
+  "duration": 306071493,
   "status": "passed"
 });
 formatter.match({
@@ -2537,7 +2526,7 @@ formatter.match({
   "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
 });
 formatter.result({
-  "duration": 2392587157,
+  "duration": 2784814979,
   "status": "passed"
 });
 formatter.match({
@@ -2550,22 +2539,22 @@ formatter.match({
   "location": "StepDefinitions.isPerformanceAcceptable(int)"
 });
 formatter.result({
-  "duration": 426329428,
+  "duration": 578783333,
   "status": "passed"
 });
 formatter.after({
-  "duration": 80404202,
+  "duration": 75310223,
   "status": "passed"
 });
 formatter.before({
-  "duration": 839730432,
+  "duration": 926944365,
   "status": "passed"
 });
 formatter.scenario({
   "line": 73,
   "name": "Print out performance metrics",
   "description": "",
-  "id": "red-badger-website;print-out-performance-metrics;;5",
+  "id": "red-badger-website-sanity-check;print-out-performance-metrics;;5",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -2609,7 +2598,7 @@ formatter.match({
   "location": "StepDefinitions.setScreenSize(String)"
 });
 formatter.result({
-  "duration": 237760169,
+  "duration": 276026014,
   "status": "passed"
 });
 formatter.match({
@@ -2622,7 +2611,7 @@ formatter.match({
   "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
 });
 formatter.result({
-  "duration": 2158511267,
+  "duration": 2265982302,
   "status": "passed"
 });
 formatter.match({
@@ -2635,22 +2624,22 @@ formatter.match({
   "location": "StepDefinitions.isPerformanceAcceptable(int)"
 });
 formatter.result({
-  "duration": 1288506635,
+  "duration": 1477599556,
   "status": "passed"
 });
 formatter.after({
-  "duration": 82958113,
+  "duration": 86166147,
   "status": "passed"
 });
 formatter.before({
-  "duration": 785147201,
+  "duration": 889756816,
   "status": "passed"
 });
 formatter.scenario({
   "line": 74,
   "name": "Print out performance metrics",
   "description": "",
-  "id": "red-badger-website;print-out-performance-metrics;;6",
+  "id": "red-badger-website-sanity-check;print-out-performance-metrics;;6",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -2694,7 +2683,7 @@ formatter.match({
   "location": "StepDefinitions.setScreenSize(String)"
 });
 formatter.result({
-  "duration": 282328917,
+  "duration": 289866558,
   "status": "passed"
 });
 formatter.match({
@@ -2707,7 +2696,7 @@ formatter.match({
   "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
 });
 formatter.result({
-  "duration": 1857461075,
+  "duration": 1946263492,
   "status": "passed"
 });
 formatter.match({
@@ -2720,22 +2709,22 @@ formatter.match({
   "location": "StepDefinitions.isPerformanceAcceptable(int)"
 });
 formatter.result({
-  "duration": 570003839,
+  "duration": 770491819,
   "status": "passed"
 });
 formatter.after({
-  "duration": 82033148,
+  "duration": 111053145,
   "status": "passed"
 });
 formatter.before({
-  "duration": 765541284,
+  "duration": 981775335,
   "status": "passed"
 });
 formatter.scenario({
   "line": 75,
   "name": "Print out performance metrics",
   "description": "",
-  "id": "red-badger-website;print-out-performance-metrics;;7",
+  "id": "red-badger-website-sanity-check;print-out-performance-metrics;;7",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -2779,7 +2768,7 @@ formatter.match({
   "location": "StepDefinitions.setScreenSize(String)"
 });
 formatter.result({
-  "duration": 256832163,
+  "duration": 252467230,
   "status": "passed"
 });
 formatter.match({
@@ -2792,7 +2781,7 @@ formatter.match({
   "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
 });
 formatter.result({
-  "duration": 1194564380,
+  "duration": 1307024517,
   "status": "passed"
 });
 formatter.match({
@@ -2805,22 +2794,22 @@ formatter.match({
   "location": "StepDefinitions.isPerformanceAcceptable(int)"
 });
 formatter.result({
-  "duration": 284686697,
+  "duration": 306189935,
   "status": "passed"
 });
 formatter.after({
-  "duration": 78522756,
+  "duration": 73495845,
   "status": "passed"
 });
 formatter.before({
-  "duration": 781180730,
+  "duration": 796893714,
   "status": "passed"
 });
 formatter.scenario({
   "line": 76,
   "name": "Print out performance metrics",
   "description": "",
-  "id": "red-badger-website;print-out-performance-metrics;;8",
+  "id": "red-badger-website-sanity-check;print-out-performance-metrics;;8",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -2864,7 +2853,7 @@ formatter.match({
   "location": "StepDefinitions.setScreenSize(String)"
 });
 formatter.result({
-  "duration": 261207508,
+  "duration": 258086062,
   "status": "passed"
 });
 formatter.match({
@@ -2877,7 +2866,7 @@ formatter.match({
   "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
 });
 formatter.result({
-  "duration": 1509023138,
+  "duration": 7209108534,
   "status": "passed"
 });
 formatter.match({
@@ -2890,22 +2879,22 @@ formatter.match({
   "location": "StepDefinitions.isPerformanceAcceptable(int)"
 });
 formatter.result({
-  "duration": 280855783,
+  "duration": 514405594,
   "status": "passed"
 });
 formatter.after({
-  "duration": 73874389,
+  "duration": 76156627,
   "status": "passed"
 });
 formatter.before({
-  "duration": 802816814,
+  "duration": 1174709717,
   "status": "passed"
 });
 formatter.scenario({
   "line": 77,
   "name": "Print out performance metrics",
   "description": "",
-  "id": "red-badger-website;print-out-performance-metrics;;9",
+  "id": "red-badger-website-sanity-check;print-out-performance-metrics;;9",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -2949,7 +2938,7 @@ formatter.match({
   "location": "StepDefinitions.setScreenSize(String)"
 });
 formatter.result({
-  "duration": 272368242,
+  "duration": 246585058,
   "status": "passed"
 });
 formatter.match({
@@ -2962,7 +2951,7 @@ formatter.match({
   "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
 });
 formatter.result({
-  "duration": 2210827475,
+  "duration": 2047980877,
   "status": "passed"
 });
 formatter.match({
@@ -2975,22 +2964,22 @@ formatter.match({
   "location": "StepDefinitions.isPerformanceAcceptable(int)"
 });
 formatter.result({
-  "duration": 347248587,
+  "duration": 430588239,
   "status": "passed"
 });
 formatter.after({
-  "duration": 79698288,
+  "duration": 73844913,
   "status": "passed"
 });
 formatter.before({
-  "duration": 787895362,
+  "duration": 767830023,
   "status": "passed"
 });
 formatter.scenario({
   "line": 78,
   "name": "Print out performance metrics",
   "description": "",
-  "id": "red-badger-website;print-out-performance-metrics;;10",
+  "id": "red-badger-website-sanity-check;print-out-performance-metrics;;10",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -3034,7 +3023,7 @@ formatter.match({
   "location": "StepDefinitions.setScreenSize(String)"
 });
 formatter.result({
-  "duration": 271146366,
+  "duration": 273589506,
   "status": "passed"
 });
 formatter.match({
@@ -3047,7 +3036,7 @@ formatter.match({
   "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
 });
 formatter.result({
-  "duration": 3749093347,
+  "duration": 2472774258,
   "status": "passed"
 });
 formatter.match({
@@ -3060,22 +3049,22 @@ formatter.match({
   "location": "StepDefinitions.isPerformanceAcceptable(int)"
 });
 formatter.result({
-  "duration": 1744451795,
+  "duration": 1337065758,
   "status": "passed"
 });
 formatter.after({
-  "duration": 76137127,
+  "duration": 81040410,
   "status": "passed"
 });
 formatter.before({
-  "duration": 817245827,
+  "duration": 804359156,
   "status": "passed"
 });
 formatter.scenario({
   "line": 79,
   "name": "Print out performance metrics",
   "description": "",
-  "id": "red-badger-website;print-out-performance-metrics;;11",
+  "id": "red-badger-website-sanity-check;print-out-performance-metrics;;11",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -3119,7 +3108,7 @@ formatter.match({
   "location": "StepDefinitions.setScreenSize(String)"
 });
 formatter.result({
-  "duration": 232737110,
+  "duration": 257297727,
   "status": "passed"
 });
 formatter.match({
@@ -3132,7 +3121,7 @@ formatter.match({
   "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
 });
 formatter.result({
-  "duration": 1865605730,
+  "duration": 4515172482,
   "status": "passed"
 });
 formatter.match({
@@ -3145,22 +3134,22 @@ formatter.match({
   "location": "StepDefinitions.isPerformanceAcceptable(int)"
 });
 formatter.result({
-  "duration": 555503203,
+  "duration": 890466100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 76947835,
+  "duration": 130303025,
   "status": "passed"
 });
 formatter.before({
-  "duration": 795520968,
+  "duration": 1213974336,
   "status": "passed"
 });
 formatter.scenario({
   "line": 83,
   "name": "Navigate to blog and use the search feature",
   "description": "",
-  "id": "red-badger-website;navigate-to-blog-and-use-the-search-feature",
+  "id": "red-badger-website-sanity-check;navigate-to-blog-and-use-the-search-feature",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -3215,7 +3204,7 @@ formatter.match({
   "location": "StepDefinitions.I_have_launched_chrome_and_navigated_to(String)"
 });
 formatter.result({
-  "duration": 2310244396,
+  "duration": 2061192325,
   "status": "passed"
 });
 formatter.match({
@@ -3228,7 +3217,7 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 22232002,
+  "duration": 30151768,
   "status": "passed"
 });
 formatter.match({
@@ -3241,7 +3230,7 @@ formatter.match({
   "location": "StepDefinitions.tap_button(String)"
 });
 formatter.result({
-  "duration": 39881302,
+  "duration": 44197376,
   "status": "passed"
 });
 formatter.match({
@@ -3254,7 +3243,7 @@ formatter.match({
   "location": "StepDefinitions.typeInField(String)"
 });
 formatter.result({
-  "duration": 216428676,
+  "duration": 245464956,
   "status": "passed"
 });
 formatter.match({
@@ -3267,7 +3256,7 @@ formatter.match({
   "location": "StepDefinitions.pressKey(String)"
 });
 formatter.result({
-  "duration": 2500809456,
+  "duration": 13154061362,
   "status": "passed"
 });
 formatter.match({
@@ -3280,7 +3269,7 @@ formatter.match({
   "location": "StepDefinitions.checkUrl(String)"
 });
 formatter.result({
-  "duration": 11063908,
+  "duration": 205702711,
   "status": "passed"
 });
 formatter.match({
@@ -3293,11 +3282,11 @@ formatter.match({
   "location": "StepDefinitions.isElementPresent(String)"
 });
 formatter.result({
-  "duration": 233247947,
+  "duration": 37949141,
   "status": "passed"
 });
 formatter.after({
-  "duration": 103028541,
+  "duration": 77903637,
   "status": "passed"
 });
 });
