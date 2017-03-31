@@ -1,7 +1,7 @@
 Feature: Red Badger Website Sanity Check
 
   @SmokeTest
-    Scenario Outline: Navigate to a page to measure performance
+    Scenario Outline: Navigate to a page to measure performance, no validation steps, just produces documentation
     Given I am measuring page performance on "<url>"
     Examples:
       | url |
