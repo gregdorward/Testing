@@ -16,4 +16,4 @@ target/cucumber/testOutput.html contains the webpage performance stats. This cur
 
 Testing the addition of a button to run a Postman suite
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/e266a775aedbf984abc2)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/a753f1913171b8d9ffb9)
