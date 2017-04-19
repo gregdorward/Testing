@@ -14,7 +14,7 @@ Test logs:
 target/cucumber/index.html contains the test run results
 target/cucumber/testOutput.html contains the webpage performance stats. This currently needs to be deleted before each test run if you want to capture only fresh results
 
-Testing the addition of a Postman suite
+Testing the addition of a button to run a Postman suite
 
 <div class="postman-run-button"
 data-postman-action="collection/import"
